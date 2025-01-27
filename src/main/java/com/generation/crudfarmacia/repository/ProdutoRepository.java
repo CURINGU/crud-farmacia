@@ -10,4 +10,5 @@ import com.generation.crudfarmacia.model.ProdutoModel;
 public interface ProdutoRepository extends JpaRepository<ProdutoModel, Long>{
 
 	public List <ProdutoModel> findAllByNomeContainingIgnoreCase(@Param("nome") String nome);
+	
 }

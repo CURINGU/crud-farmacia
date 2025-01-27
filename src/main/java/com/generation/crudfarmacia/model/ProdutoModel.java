@@ -76,7 +76,7 @@ public class ProdutoModel {
 	}
 
 	public void setMarca(String marca) {
-		this.marca = marca; 
+		this.marca = marca;  
 	}
 
 	public CategoriaModel getCategoria() {

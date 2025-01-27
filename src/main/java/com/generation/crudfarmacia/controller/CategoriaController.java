@@ -33,7 +33,7 @@ public class CategoriaController {
 	
 	@GetMapping("/all")
     public ResponseEntity<List<CategoriaModel>> getAll(){
-        return ResponseEntity.ok(categoriaRepository.findAll());
+        return ResponseEntity.ok(categoriaRepository.findAll()); 
     }
     
     @GetMapping("/id/{id}")
